@@ -2,6 +2,7 @@ import streamlit as st
 import time
 import numpy as np
 import pandas as pd
+import requests
 
 # Read the jupyter notebook to be downloadable through the download button
 # GitHub raw URL for the notebook
