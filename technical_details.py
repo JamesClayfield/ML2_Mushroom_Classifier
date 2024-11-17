@@ -6,7 +6,7 @@ import requests
 
 # Read the jupyter notebook to be downloadable through the download button
 # GitHub raw URL for the notebook
-url = "https://github.com/JamesClayfield/ML2_Mushroom_Classifier/blob/a35f9977748aa45d652f99809b40b047bdc19ca1/Individual.ipynb"
+url = "https://github.com/JamesClayfield/ML2_Mushroom_Classifier/blob/f910bfc86cda6d42d5c46ae2da596bf2fec6a660/Individual.ipynb"
 response = requests.get(url)
 if response.status_code == 200:
     notebook_data = response.content
