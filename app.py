@@ -55,7 +55,7 @@ st.markdown(
 
 #This function calls the different pages depending on the sidebar selection.
 def main():
-    st.sidebar.title("Choose a Page")
+    st.sidebar.title("🌳 Chapters of the Forest 🌳")
 
     # Initialize session state for page selection
     if "page" not in st.session_state:
