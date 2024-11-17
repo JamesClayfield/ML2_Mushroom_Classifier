@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 	# Read the jupyter notebook to be downloadable through the download button
-with open("individual.ipynb", "rb") as file:
+with open("/Individual.ipynb", "rb") as file:
     notebook_data = file.read()
 
 
