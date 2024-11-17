@@ -3,11 +3,12 @@ import time
 import numpy as np
 import pandas as pd
 
-	# Read the jupyter notebook to be downloadable through the download button
-with open("/Individual.ipynb", "rb") as file:
-    notebook_data = file.read()
-
-
+# Read the jupyter notebook to be downloadable through the download button
+# GitHub raw URL for the notebook
+url = "https://raw.githubusercontent.com/JamesClayfield/ML2_Mushroom_Classifier/c41061ae1cb4870a59c3bed7c4879d156f1983eb/Individual.ipynb"
+response = requests.get(url)
+if response.status_code == 200:
+    notebook_data = response.content
 
 
 def technical_details():
