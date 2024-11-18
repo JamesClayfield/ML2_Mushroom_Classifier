@@ -216,8 +216,6 @@ to make the most accurate classification possible.
 
 	st.subheader("Please enter the Mushroom's Characteristics")	
 
-	#This container seems redundant. Can remove.
-
 	if model_select == 'Full Model':
 		inputs = full_model_toggle()
 	else:
@@ -245,6 +243,19 @@ to make the most accurate classification possible.
 	            st.error('The Mushroom is {}!'.format(result))
 	            emoji_rain_unsafe()
 
+	st.markdown("""
+	<div style="padding: 15px; background-color: #ffe6e6; border-radius: 5px;">
+	<h3 style="color: #fc796f; margin-top: 0; text-align: center;">DISCLAIMER</h3>
+	<p style="color: black; font-weight: normal; margin: 0;">
+	The mushroom classification application has been created and provided for informational and educational purposes only.
+	It is not meant for real world use. The predictions made by the model may not be accurate in the real world and should not 
+	be used for any decision making. Please consult an expert before consuming any mushrooms found in nature. Failure to do so could have 
+	severe health consequences.
+	</p>
+    </div>
+    """, 
+    unsafe_allow_html=True
+    )
 
 
 def party_time():
