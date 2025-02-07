@@ -1,4 +1,4 @@
-#Mushroom Classifier
+# Mushroom Classifier
 
 This project was part of the Machine Learning 2 Class I took in the MSc in Business Analytics and Big Data.
 
